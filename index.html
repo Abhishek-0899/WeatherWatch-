@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+    <div class="container">
+        <div class="searchBox">
+            <input type="text" placeholder="enter city name">
+            <Button><i class=" btn fa fa-search"></i></Button>
+        </div>
+        <div class="error">
+            <img class="weather-icon" src="" alt="Error Image">
+            <p>City not found. Please try again.</p>
+        </div>
+        <div class="weather">
+            <img src="./images/rain.png" class="weather-icon" alt="">
+            <h1 class="temp"></h1>
+            <h1 class="city"></h1>
+            <div class="details">
+                <div class="col">
+                    <img src="./images/humidity.png" alt="">
+                    <div>
+                        <p class="humidity"><span></span></p>
+                        <p>Humidity</p>
+                    </div>
+                </div>
+                <div class="col">
+                    <img src="./images/wind.png" alt="">
+                    <div>
+                        <p class="wind"></p>
+                        <p>Wind</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+</body>
+
+</html>
